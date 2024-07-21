@@ -1,1 +1,2 @@
-"# ITI_projects" 
+pen Source Training Projects  Welcome to the **Open Source Training Projects** repository! This repository is dedicated to sharing my projects and resources related to open source training.  ## Introduction  In this repository, you'll find a collection of projects and resources that I've developed as part of my open-source training. These projects aim to provide practical experience and demonstrate best practices in open-source development.
+
