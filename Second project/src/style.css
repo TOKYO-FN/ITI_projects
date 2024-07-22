@@ -1,0 +1,70 @@
+ol li {
+	display: inline;
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+ol.myol {
+	display: inline;
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+ol.myol li {
+	display: inline;
+	padding-left: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	background-color: #333333;
+}
+
+#Amenu {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#headerdiv {
+	height: 50px;
+	padding-top: 18px;
+}
+
+#logo {
+	height: 65px;
+	width: 290px;
+	border: 2px solid;
+	float: right;
+}
+
+
+.ct {
+	color: black;
+	display: block;
+	padding-left: 0px;
+	list-style-type: decimal;
+
+}
+
+div.mycontainer {
+	width: 100%;
+	overflow: auto;
+}
+
+div.mycontainer div {
+	width: 50%;
+	float: left;
+}
+
+
+.tcellData {
+	width: 600px;
+	text-align: right;
+	background-color: #ABDEC5;
+
+}
