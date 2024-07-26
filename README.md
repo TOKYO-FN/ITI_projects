@@ -14,7 +14,7 @@ The primary goals of this repository are to:
 
 ## License
 
-This repository is licensed under the MIT license.
+This repository is licensed under CC BY-NC 4.0
 
 ## Contact
 
