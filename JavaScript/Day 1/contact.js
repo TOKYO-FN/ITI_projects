@@ -2,10 +2,9 @@ function main() {
   function getName() {
     while (true) {
       let name = prompt("Enter your name: ");
-      if (name && /[a-zA-Z]/.test(name)) {
+      if (name && /^[a-zA-Z\s]+$/.test(name.trim())) {
         return name.trim();
-      }
-      alert("Invalid name");
+      } else alert("Invalid name");
     }
   }
 
