@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <style>
+      .todo-item {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 0;
+      }
+      .done {
+        background-color: lightgreen;
+      }
+      .button {
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="todoInput" rows="4" cols="50"></textarea>
+    <button onclick="addTodo()">Add To-Do</button>
+    <div id="todoContainer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

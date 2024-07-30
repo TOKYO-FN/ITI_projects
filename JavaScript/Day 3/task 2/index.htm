@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>XMLHttpRequest Example</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Post Titles from API</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody id="data">
+        <!-- DATA -->
+      </tbody>
+    </table>
+
+    <h2>Get Post by ID</h2>
+    <input type="text" placeholder="Enter Post ID" />
+    <button onclick="Submit()">Fetch Post</button>
+    <h3 id="title"></h3>
+    <script src="script.js"></script>
+  </body>
+</html>
