@@ -92,10 +92,12 @@ function test_input($data) {
     <span class="required-field">* <?php echo $genderErr;?></span>
     <br><br>
     Select courses:
-    <input type="checkbox" name="courses[]" value="PHP">PHP
-    <input type="checkbox" name="courses[]" value="Java Script">Java Script
-    <input type="checkbox" name="courses[]" value="MySQL">MySQL
-    <input type="checkbox" name="courses[]" value="HTML">HTML
+		<select name="courses[]"  multiple>
+    <option value="PHP">PHP </option>
+    <option value="Java Script">Java Script </option>
+    <option value="MySQL">MySQL </option>
+    <option value="HTML">HTML </option>
+		</select>
     <br><br>
     Agree: <input type="checkbox" name="agree" <?php if (isset($agree) && $agree=="on") echo "checked";?>>
     <span class="required-field">* <?php echo $agreeErr;?></span>
