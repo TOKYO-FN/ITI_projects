@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #555555;
+}
+
+div {
+  width: 550px;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.name-email {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+hr {
+  height: 1px;
+  background-color: #f9f9f9;
+  margin-bottom: 17px;
+}
+
+.name-email-inp {
+  border: 1px solid #aeaeae;
+  padding: 7px;
+  width: 250px;
+  margin-bottom: 13px;
+}
+
+.last-three {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.button1 {
+  padding: 7px 10px;
+  border: 1px solid #aeaeae;
+  border-radius: 10%;
+}
+
+#sumbit {
+  background-color: #307ab2;
+  color: white;
+}
+
+#cancel {
+  background-color: #ffffff;
+  border: 1px solid #aeaeae;
+}
+
+.required-field {
+  color: rgb(243, 41, 41);
+}
